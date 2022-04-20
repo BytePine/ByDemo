@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ByGameInstanceBase.h"
+#include "System/ByGameInstanceBase.h"
 #include "ByDemoGameInstance.generated.h"
 
 /**
