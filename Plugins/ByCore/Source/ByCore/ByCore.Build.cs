@@ -26,6 +26,7 @@ public class ByCore : ModuleRules
 			new string[]
 			{
 				"Core",
+				"GameFeatures",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
