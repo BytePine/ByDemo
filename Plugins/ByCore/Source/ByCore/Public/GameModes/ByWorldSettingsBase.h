@@ -3,14 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ByExperienceDefinition.h"
 #include "GameFramework/WorldSettings.h"
 #include "ByWorldSettingsBase.generated.h"
+
+class UByExperienceDefinition;
 
 /**
  * 
  */
-UCLASS(Abstract, Blueprintable, BlueprintType)
+UCLASS(Abstract)
 class BYCORE_API AByWorldSettingsBase : public AWorldSettings
 {
 	GENERATED_BODY()

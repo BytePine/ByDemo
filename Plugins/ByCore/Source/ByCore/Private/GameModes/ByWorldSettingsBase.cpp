@@ -2,7 +2,7 @@
 
 
 #include "GameModes/ByWorldSettingsBase.h"
-
+#include "GameModes/ByExperienceDefinition.h"
 #include "Engine/AssetManager.h"
 
 FPrimaryAssetId AByWorldSettingsBase::GetExperienceDefinition() const

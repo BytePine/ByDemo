@@ -28,5 +28,5 @@ public:
 
 	// List of additional action sets to compose into this experience
 	UPROPERTY(EditDefaultsOnly, Instanced, Category=Actions)
-	TArray<TObjectPtr<UByExperienceActionSet>> ActionsSets;
+	TArray<TObjectPtr<UByExperienceActionSet>> ActionSets;
 };
