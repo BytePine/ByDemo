@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
-#include "ByGameMode.generated.h"
+#include "GameFramework/GameModeBase.h"
+#include "ByGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class BYCORE_API UByGameMode : public UObject
+class BYCORE_API AByGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 };
