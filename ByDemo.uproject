@@ -43,6 +43,10 @@
 		{
 			"Name": "ByCore",
 			"Enabled": true
+		},
+		{
+			"Name": "ByVersion",
+			"Enabled": true
 		}
 	]
 }
