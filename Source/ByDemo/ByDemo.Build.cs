@@ -8,7 +8,7 @@ public class ByDemo : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore",});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
@@ -23,6 +23,7 @@ public class ByDemo : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[]
 		{
 			"ByCore",
+			"ByVersion",
 		});
 	}
 }
